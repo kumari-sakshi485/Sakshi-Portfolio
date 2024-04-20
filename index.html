@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi's Portfolio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- fontAwesome cdn -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- content here -->
+
+    <div class="container">
+      <!-- header section -->
+      <section id="header">
+        <div class="header-top">
+          <div class="logo">
+            <a href="#"><span>PR</span>ortfolio</a>
+          </div>
+          <!-- navbar -->
+          <div class="nav-menu">
+            <ul id="sidemenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonial">Testimonial</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+
+            </ul>
+
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+          </div>
+        </div>
+        <!-- header-bottom -->
+        <div class="header-bottom">
+          <div class="bottom-left">
+            <h1 class="name">Sakshi <span>Kumari</span></h1>
+            <h3 class="profession">-Full Stack Web Developer</h3>
+            <p class="short-desc">
+              I'm passionate Full Stack Web Developer |Graphic Designer|Front
+              Web
+              Developer|UI Design| Fresher.
+              <br>
+              Recent graduate. Explore my portfolio for a glimpse of my
+              projects.
+
+            </p>
+            <a href="Sakshi-Kumari-resume-6202485402.pdf" class="btn-cv"
+              target="_blank" download>Download CV</a>
+            <!-- social media -->
+            <div class="bottom-right">
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands  fa-envelope"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+          </div>
+        </section>
+        <!-- about section -->
+        <section id="about">
+          <div class="about-left">
+            <img src="girl.jpg" alt="user-sedeimg">
+          </div>
+          <div class="about-right">
+            <div class="section-title">
+              <h2 class="sub-title">About Me</h2>
+              <h3 class="title">Web development</h3>
+            </div>
+            <p class="desc">Hello! I am Sakshi Kumari, a passionate Full Stack
+              Web Developer and Graphic Designer. As a recent graduate with a
+              degree in Computer Science Engineering, I am dedicated to crafting
+              user-friendly and visually appealing web experiences. My skills
+              range from UI/UX design to both frontend and backend development.
+              I am excited to share my journey and showcase my projects in this
+              portfolio.</p>
+            <div class="tab-titles">
+              <!-- 1 -->
+              <p class="tab-links active-link"
+                onclick="openTab('skills')">Skills</p>
+              <!-- 2 -->
+              <p class="tab-links"
+                onclick="openTab('experience')">Experience</p>
+              <!-- 3 -->
+              <p class="tab-links"
+                onclick="openTab('education')">Education</p>
+            </div>
+            <!-- skills section -->
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX Design</span><br>Designing Web(HTML,CSS,JS)</li>
+                <li><span>Web Developer</span><br>Web App
+                  development(React.Js)</li>
+                <li><span>Frontend Developer</span><br>Desining Website</li>
+                <li><span>Backend developer</span><br>Backend Work</li>
+
+              </ul>
+            </div>
+            <!-- experience section -->
+            <div class="tab-contents active-tab" id="experience">
+              <ul>
+                <li><span>Graduate in 2023</span><br>Fresher</li>
+                <!-- optional  -->
+                <!-- <li><span>1-year</span><br>HTML5</li>
+                <li><span>1year</span><br>CSS</li>
+                <li><span>1-year</span><br>JavaScript</li>
+                <li><span>1-year</span><br>JQuery</li>
+                <li><span>1-year</span><br>Bootstrap5</li>
+                <li><span>1-year</span><br>TailwindCSS</li>
+                <li><span>1-year</span><br>React.js</li>
+                <li><span>1-year</span><br>Database/DBMS</li>
+                <li><span>1-year</span><br>Node.js/Express.js</li> -->
+
+              </ul>
+            </div>
+            <!-- education section -->
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li><span>2019-2023</span><br />B.tech in CSE from
+                  MRSPTU-GZSCCET(Bhatinda,Punjab)</li>
+                <li><span>2017-2019</span><br />12th science(PCM) from D.K
+                  College(Dumraon,Bihar)</li>
+                <li><span>2016-2017</span><br />10th from St. Josheph's Girls
+                  high school(Dumraon, Bihar) </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </section>
+        <!-- service section -->
+        <section id="service">
+          <div class="section-title">
+
+            <h2 class="sub-title">My Service</h2>
+            <h3 class="title">A brief of offering Service</h3>
+          </div>
+          <div class="services">
+            <!-- service1 -->
+            <div>
+              <i class="fa-brands fa-battle-net"></i>
+              <h2>Web development</h2>
+              <p>We specialize in creating responsive and user-friendly
+                interfaces using the latest technologies like HTML, CSS,
+                JavaScript, and popular frontend frameworks.</p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+            <!-- service2 -->
+            <div>
+              <i class="fa-solid fa-globe"></i>
+              <h2>Frontend Developer</h2>
+              <p>We specialize in creating responsive and user-friendly
+                interfaces using the latest technologies like HTML, CSS,
+                JavaScript, and popular frontend frameworks.</p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+            <!-- service3 -->
+            <div>
+              <i class="fa-solid fa-pix"></i>
+              <h2>Backend Development</h2>
+              <p>Our backend development services involve building robust
+                server-side applications, APIs, and databases using technologies
+                such as Node.js, Express, Django, and more.</p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+            <!-- service 4 -->
+            <div>
+              <i class="fa-solid fa-laptop"></i>
+              <h2>Cloud Solutions</h2>
+              <p>We provide cloud-based solutions, including deployment,
+                scaling, and maintenance on platforms like AWS, Azure, and
+                Google Cloud to ensure seamless performance and reliability.</p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+          </div>
+
+        </section>
+        <!-- portfolio section -->
+        <section id="portfolio">
+          <div class="section-title">
+            <h2 class="sub-title">
+              My Portfolio
+            </h2>
+            <h3 class="title">Awesome Work</h3>
+          </div>
+          <div class="project-list">
+            <!-- project1 -->
+            <div class="project">
+              <img src="todo1.png" style="height: 100%;" alt="project1">
+              <div class="layer">
+                <h2>To do list app</h2>
+                <p>A ReactJS To-Do List app enables users to manage tasks
+                  intuitively. It utilizes React's state management for dynamic
+                  UI updates when adding, completing, or deleting tasks. The app
+                  features reusable components, a form for adding tasks, and
+                  uses localStorage for persistence. Designed with
+                  responsiveness, styling, and accessibility in mind, it offers
+                  an efficient and visually pleasing task management
+                  experience.</p>
+                <a href="#"><i class="fa fa-external-link"></i></a>
+              </div>
+            </div>
+            <!-- project2 -->
+            <div class="project">
+              <img src="landingpage.jpg" style="height: 100%;" alt="project2">
+              <div class="layer">
+                <h2>Landing page</h2>
+                <p>A landing page using HTML and Bootstrap is a webpage designed
+                  for a concise introduction to a product or service. It
+                  utilizes Bootstrap for a responsive and visually appealing
+                  layout. Key components include a navigation bar, a prominent
+                  hero section, feature/benefit sections, call-to-action
+                  elements, testimonials, and a footer. The page is designed to
+                  be easily navigable, visually engaging, and optimized for
+                  different screen sizes.</p>
+                <a href="#"><i class="fa fa-external-link"></i></a>
+              </div>
+            </div>
+            <!-- projet3 -->
+            <div class="project">
+              <img src="website.jpg" style="height: 100%;" alt="project3">
+              <div class="layer">
+                <h2>Web Site</h2>
+                <p>A website using Tailwind CSS and HTML is a modern, responsive
+                  webpage designed with the utility-first approach of Tailwind
+                  CSS. The HTML structure follows standard conventions, and
+                  Tailwind CSS classes are directly applied for styling
+                  throughout the page. It features a navigation bar, a visually
+                  engaging hero section, various content sections organized with
+                  Tailwind's grid system, and styled elements such as cards and
+                  forms. The website prioritizes responsiveness, providing a
+                  clean and customizable design without the need for extensive
+                  custom CSS.
+
+                </p>
+                <a href="#"><i class="fa fa-external-link"></i></a>
+              </div>
+            </div>
+            <!-- project4 -->
+            <div class="project">
+              <img src="amazone.jpg" style="height: 100%;" alt="project4">
+              <div class="layer">
+                <h2>Amazone Clone</h2>
+                <p>Creating an Amazon clone using HTML and CSS involves
+                  structuring the page with standard HTML tags, styling it to
+                  resemble Amazon's design using CSS, and ensuring
+                  responsiveness for different screen sizes. Key elements
+                  include a header with the Amazon logo and search bar, a
+                  navigation bar with dropdown menus, a main content area
+                  displaying products using grid or flex layouts, and a footer
+                  with relevant links. The design should be visually appealing,
+                  and optional interactivity such as hover effects can enhance
+                  the user experience. It's essential to emphasize that this
+                  clone is for educational purposes and lacks the functionality
+                  and security measures of a real e-commerce platform</p>
+                <a href="#"><i class="fa fa-external-link"></i></a>
+              </div>
+            </div>
+            <!-- project5 -->
+            <div class="project">
+              <img src="social.jpg" alt="project">
+              <div class="layer">
+                <h2>Social Media website</h2>
+                <p> Creating a social media website using JavaScript, HTML, and
+                  CSS involves structuring the webpage with HTML, applying
+                  styles with CSS for a visually appealing design, and adding
+                  interactivity using JavaScript. Key features include user
+                  authentication, user profiles, post creation and display,
+                  interactive elements like likes and comments, real-time
+                  updates, friend requests, and a responsive design. Keep in
+                  mind that a full-fledged social media platform requires
+                  additional considerations such as back-end development and
+                  security measures.</p>
+                <a href="#"><i class="fa fa-external-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Testimonial section -->
+        <section id="testimonial">
+          <div class="section-title">
+            <h2 class="sub-title">Testimonials</h2>
+            <h3 class="title">People what are saying</h3>
+          </div>
+          <div class="testimonial-list">
+            <!-- 1st person -->
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">Exceptional service tailored for you.</p>
+              <div class="review-by">
+                <div class="img">
+                  <img src="testii.jpeg" alt>
+                </div>
+                <div class="info">
+                  <h3 class="name">Divya Verma</h3>
+                  <h5 class="designation">Web developer</h5>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd person -->
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">Great Work.</p>
+              <div class="review-by">
+                <div class="img">
+                  <img src="testimo5.jpg" alt>
+                </div>
+                <div class="info">
+                  <h3 class="name">Sikha Jain</h3>
+                  <h5 class="resignation">Graphics Designer</h5>
+                </div>
+              </div>
+            </div>
+            <!-- 3rd person -->
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">Exceptional service tailored for you.</p>
+              <div class="review-by">
+                <div class="img">
+                  <img src="testimo2.jpg" alt>
+                </div>
+                <div class="info">
+                  <h3 class="name">Amandeep Singh</h3>
+                  <h5 class="resignation">Frontend Developer</h5>
+                </div>
+              </div>
+            </div>
+            <!-- 4th person -->
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">Keep going</p>
+              <div class="review-by">
+                <div class="img">
+                  <img src="testmo3.jpg" alt>
+                </div>
+                <div class="info">
+                  <h3 class="name">Ruhi Chouhan</h3>
+                  <h5 class="resignation">Full stack Web developer</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contact-Section -->
+        <section id="contact">
+          <div class="section-title">
+            <h2 class="sub-title">Contact</h2>
+            <h3 class="title">Get in Touch</h3>
+          </div>
+          <div class="content">
+            <div class="contact-left">
+              <form action>
+                <input type="text" name="name" id="name"
+                  placeholder="Enter your Name" required>
+                <input type="email" name="email" id="email"
+                  placeholder="Enter your email" required>
+                <br>
+                <textarea name="message" id="message" rows="6"
+                  placeholder="Text your Message Here"></textarea>
+
+                <button type="submit">Send message <i
+                    class="fa-solid fa-arrow-right"></i> </button>
+              </form>
+            </div>
+            <div class="vl"></div>
+            <div class="contact-right">
+              <!-- info1 -->
+              <div class="col address">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="info">
+                  <h2 class="title">Address</h2>
+                  <p>Dumraon,Buxar,Bihar:802133</p>
+                </div>
+              </div>
+              <!-- info2 -->
+              <div class="col phone">
+                <i class="fa-solid fa-phone"></i>
+                <div class="info">
+                  <h2 class="title">phone</h2>
+                  <p>+91 6202-485-402</p>
+                </div>
+              </div>
+              <!-- info3 -->
+              <div class="col email">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="info">
+                  <h2 class="title">Email</h2>
+                  <p>sakshicse612@gmail.com</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="copyright">
+            copyright &copy; portfolio | Made with
+            <i class="fa-solid fa-heart"></i> By <a href="#">Sakshi kumari</a>
+          </div>
+        </section>
+      </div>
+
+      <!-- custome js -->
+      <script src="script.js"></script>
+    </body>
+  </html>
